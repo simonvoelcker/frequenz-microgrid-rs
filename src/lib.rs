@@ -8,6 +8,7 @@ pub use bounds::Bounds;
 
 pub mod client;
 pub use client::MicrogridClientHandle;
+pub use client::test_utils::{MockComponent, MockMicrogridApiClient};
 pub(crate) use client::proto;
 
 mod error;

@@ -17,7 +17,6 @@ mod pb {
 // Only export what we need
 pub use pb::frequenz::api::common::v1alpha8 as common;
 pub use pb::frequenz::api::microgrid::v1alpha18 as microgrid;
-#[cfg(test)]
 pub use pb::google;
 
 mod electrical_component;

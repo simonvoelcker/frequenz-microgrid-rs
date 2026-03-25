@@ -18,5 +18,4 @@ pub use proto::common::microgrid::electrical_components::{
     ElectricalComponent, ElectricalComponentCategory,
 };
 
-#[cfg(test)]
-pub(crate) mod test_utils;
+pub mod test_utils;
